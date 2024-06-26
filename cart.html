@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - My E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="cart-items" class="product-list">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <h2>Total: $<span id="total-amount">0</span></h2>
+            <button id="purchase-btn">Purchase</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My E-Commerce Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
